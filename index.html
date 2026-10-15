@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="RutaGit, guía rápida de control de versiones con Git, GitHub y despliegue continuo."
+    />
+    <title>RutaGit | Guía de control de versiones</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="brand" href="#inicio">
+          <span class="brand-mark">&lt;/&gt;</span>
+          <span class="brand-text">RutaGit</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#comandos">Comandos</a></li>
+          <li><a href="#flujo">Flujo de trabajo</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="container">
+          <p class="hero-eyebrow">Desarrollo Web Integral</p>
+          <h1 class="hero-title">RutaGit</h1>
+          <p class="hero-subtitle">
+            Guía rápida de control de versiones, flujos de trabajo con ramas y
+            despliegue continuo en la nube.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#comandos">Ver comandos</a>
+            <a class="btn btn-ghost" href="#flujo">Conocer el flujo</a>
+          </div>
+          <dl class="hero-stats">
+            <div class="stat">
+              <dt>4</dt>
+              <dd>Categorías de comandos</dd>
+            </div>
+            <div class="stat">
+              <dt>5</dt>
+              <dd>Pasos del flujo con ramas</dd>
+            </div>
+            <div class="stat">
+              <dt>100%</dt>
+              <dd>Despliegue automático</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="comandos" class="section">
+        <div class="container">
+          <header class="section-head">
+            <h2>Comandos esenciales</h2>
+            <p>
+              Los comandos que se utilizan con mayor frecuencia al versionar un
+              proyecto web, agrupados por etapa del trabajo.
+            </p>
+          </header>
+          <div class="grid" id="lista-comandos"></div>
+        </div>
+      </section>
+
+      <section id="flujo" class="section section-alt">
+        <div class="container">
+          <header class="section-head">
+            <h2>Flujo de trabajo con ramas</h2>
+            <p>
+              Secuencia que se sigue para incorporar un cambio al sitio sin
+              afectar la versión que ya está publicada.
+            </p>
+          </header>
+          <ol class="pasos" id="lista-flujo"></ol>
+        </div>
+      </section>
+
+      <section id="recursos" class="section">
+        <div class="container">
+          <header class="section-head">
+            <h2>Recursos de consulta</h2>
+            <p>Fuentes oficiales utilizadas como referencia en esta práctica.</p>
+          </header>
+          <div class="grid grid-3" id="lista-recursos"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>RutaGit &copy; <span id="anio"></span></p>
+        <p>Universidad Tecnológica de la Riviera Maya</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
