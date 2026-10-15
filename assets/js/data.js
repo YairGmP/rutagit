@@ -100,5 +100,10 @@ var RECURSOS = [
     titulo: 'Documentación de Vercel',
     texto: 'Manual de la plataforma de despliegue continuo utilizada en esta práctica.',
     url: 'https://vercel.com/docs'
+  },
+  {
+    titulo: 'Documentación de MDN Web Docs',
+    texto: 'Referencia de HTML, CSS y JavaScript mantenida por Mozilla.',
+    url: 'https://developer.mozilla.org/es/'
   }
 ]
