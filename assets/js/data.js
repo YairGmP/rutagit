@@ -57,7 +57,7 @@ var PASOS_FLUJO = [
     numero: '01',
     titulo: 'Rama principal estable',
     texto:
-      'La rama main guarda la versión publicada del sitio. Nunca se trabaja directamente sobre ella cuando el cambio es grande.'
+      'La rama main guarda la versión publicada del sitio. Nunca se trabaja directamente sobre ella cuando el cambio es grande. Revisado por Yair Guzmán.'
   },
   {
     numero: '02',
